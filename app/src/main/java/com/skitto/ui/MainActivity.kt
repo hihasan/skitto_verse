@@ -78,6 +78,7 @@ class MainActivity : ComponentActivity() {
             // Permission granted, launch CameraScreen
             setContent {
                 CameraScreen()
+
             }
         } else {
             // Permission denied, show a message or fallback logic
